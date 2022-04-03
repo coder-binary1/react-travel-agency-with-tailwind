@@ -7,10 +7,22 @@ module.exports = {
       backgroundImage: {
         'hero-pattern': "url('/src/img/Decore.png')"
       },
-      padding: {
-        '636px': '636px',
+      fontFamily: {
+        GoogleSans: ["Open Sans"],
+        Poppins: ["Poppins"],
+        Volkhov: ["Volkhov"],
+      },
+      spacing: {
+        '470': '470px',
+        '535': '535px',
+        '545': '545px',
+        '764': '764px',
+        '765': '765px'
+      },
+      lineHeight: {
+        '90': '90px'
       }
-    },
+    }
   },
   plugins: [],
 }
